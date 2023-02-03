@@ -149,3 +149,18 @@ nav ul li a:hover:after{
     margin-bottom: 30px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    nav {
+      padding: 30px;
+    }
+    .w1, .w2 {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      margin-top: 50px;
+    }
+    .w1 a, .w2 a {
+      margin-left: 0;
+    }
+  }

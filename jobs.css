@@ -151,3 +151,36 @@ nav ul li a:hover:after{
         margin-left: 20px;
         text-align: center;
     }    
+
+
+
+
+
+    @media only screen and (max-width: 1024px) {
+        nav {
+          padding: 30px 150px;
+        }
+        
+        .w1 a {
+          margin-left: 150px;
+        }
+        
+        .w2 a {
+          margin-right: 150px;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        nav {
+          padding: 30px 50px;
+        }
+        
+        .w1 a {
+          margin-left: 50px;
+        }
+        
+        .w2 a {
+          margin-right: 50px;
+        }
+      }
+      
